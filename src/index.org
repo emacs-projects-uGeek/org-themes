@@ -13,8 +13,13 @@ There are two ways to use them [not all themes include both solutions]:
 
 For the embedded version there is a SETUPFILE with the extension ".theme". This file has all needed css and js
 inside =style= and =script= tags.
+
+Include it by using:
+#+begin_src emacs-lisp
+#+SETUPFILE: <path to .theme file>
+#+end_src
   
-Every theme is rendered with the same org file.A plane version is also included.
+Every theme is rendered with the same org file. A plane version is also included.
 The git repository with all files is here: [[https://gitlab.com/OlMon/org-themes/][Gitlab Repo]]
 
 ** Credits and apology
