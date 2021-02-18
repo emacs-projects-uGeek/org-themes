@@ -15,7 +15,7 @@ For the embedded version there is a SETUPFILE with the extension ".theme". This 
 inside =style= and =script= tags.
   
 Every theme is rendered with the same org file.A plane version is also included.
-The git repository with all files is here: [[https://gitlab.com/OlMon][GitlabTODO]]
+The git repository with all files is here: [[https://gitlab.com/OlMon/org-themes/][Gitlab Repo]]
 
 ** Credits and apology
 I used them mainly embedded, with custom created SETUPFILES.
