@@ -87,7 +87,7 @@ I am happy to include any theme.
          :base-directory "~/Workplace/Org/Themes/src/"
          :base-extension "org" ;; get all files
          :exclude "example"
-         :publishing-directory "~/Workplace/Org/Themes/publish/"
+         :publishing-directory "~/Workplace/Org/Themes/public/"
          :publishing-function org-html-publish-to-html
          :html-preamble t
          :recursive t)
@@ -96,8 +96,8 @@ I am happy to include any theme.
 #+end_src
 
 #+RESULTS:
-| orgfiles | :base-directory | ~/Workplace/Org/Themes/src/ | :base-extension | org | :exclude | example | :publishing-directory | ~/Workplace/Org/Themes/publish/ | :publishing-function | org-html-publish-to-html | :html-preamble | t | :recursive | t |
-| website  | :components     | (orgfiles)                  |                 |     |          |         |                       |                                 |                      |                          |                |   |            |   |
+| orgfiles | :base-directory | ~/Workplace/Org/Themes/src/ | :base-extension | org | :exclude | example | :publishing-directory | ~/Workplace/Org/Themes/public/ | :publishing-function | org-html-publish-to-html | :html-preamble | t | :recursive | t |
+| website  | :components     | (orgfiles)                  |                 |     |          |         |                       |                                |                      |                          |                |   |            |   |
 
 
 ** Irony
